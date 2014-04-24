@@ -5,3 +5,28 @@
  */
 
 include_once 'hr_wysiwyg.features.inc';
+
+/**
+ * Implementation of hook_wysiwyg_editor_settings_alter()
+ */
+function hr_wysiwyg_wysiwyg_editor_settings_alter(&$settings, $context) {
+
+  // Only work the magic on the Panopoly profiles
+  if (strpos($context['profile']->format, 'panopoly_') === 0) {
+
+    switch ($context['editor']['name']) {
+      case 'ckeditor':
+        $toolbar = $settings['toolbar'][0];
+        $final = array();
+        foreach ($toolbar as $button) {
+          if ($button == 'Unlink') {
+            $final[] = 'linkit';
+          }
+          if ($button != 'linkit') {
+            $final[] = $button;
+          }
+        }
+        $settings['toolbar'][0] = $final;
+     }
+  }
+}
