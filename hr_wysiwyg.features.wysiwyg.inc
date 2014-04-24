@@ -76,6 +76,9 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
         'linkit' => array(
           'linkit' => 1,
         ),
+        'drupal' => array(
+          'media' => 1,
+        ),
       ),
       'toolbarLocation' => 'top',
       'resize_enabled' => 1,
@@ -88,7 +91,7 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
       'stylesSet' => 'Styled Image (right)=img.pull-right
 Styled Image (left)=img.pull-left',
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'advanced__active_tab' => 'edit-paste',
+      'advanced__active_tab' => 'edit-basic',
       'forcePasteAsPlainText' => 1,
     ),
   );
