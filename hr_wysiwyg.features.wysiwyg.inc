@@ -69,6 +69,7 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
           'NumberedList' => 1,
           'Unlink' => 1,
           'Source' => 1,
+          'HorizontalRule' => 1,
           'Format' => 1,
           'Styles' => 1,
           'Table' => 1,
@@ -95,7 +96,7 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
 Styled Image (left)=img.pull-left
 Clearfix=p.clearfix',
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'advanced__active_tab' => 'edit-css',
+      'advanced__active_tab' => 'edit-basic',
       'forcePasteAsPlainText' => 1,
     ),
   );
