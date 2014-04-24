@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * panopoly_wysiwyg.linkit_profiles.inc
+ * hr_wysiwyg.linkit_profiles.inc
  */
 
 /**

@@ -69,8 +69,11 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
           'NumberedList' => 1,
           'Unlink' => 1,
           'Source' => 1,
+          'Format' => 1,
           'Styles' => 1,
           'Table' => 1,
+          'Find' => 1,
+          'Replace' => 1,
           'Maximize' => 1,
         ),
         'linkit' => array(
@@ -89,9 +92,10 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
       'css_setting' => 'theme',
       'css_path' => '',
       'stylesSet' => 'Styled Image (right)=img.pull-right
-Styled Image (left)=img.pull-left',
+Styled Image (left)=img.pull-left
+Clearfix=p.clearfix',
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'advanced__active_tab' => 'edit-basic',
+      'advanced__active_tab' => 'edit-css',
       'forcePasteAsPlainText' => 1,
     ),
   );
