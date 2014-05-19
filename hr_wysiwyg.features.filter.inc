@@ -10,6 +10,22 @@
 function hr_wysiwyg_filter_default_formats() {
   $formats = array();
 
+  // Exported format: Full HTML.
+  $formats['full_html'] = array(
+    'format' => 'full_html',
+    'name' => 'Full HTML',
+    'cache' => 0,
+    'status' => 1,
+    'weight' => 0,
+    'filters' => array(
+      'filter_tokens' => array(
+        'weight' => 0,
+        'status' => 1,
+        'settings' => array(),
+      ),
+    ),
+  );
+
   // Exported format: HTML.
   $formats['panopoly_html_text'] = array(
     'format' => 'panopoly_html_text',
