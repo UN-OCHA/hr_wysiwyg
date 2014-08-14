@@ -2,7 +2,6 @@ name = WYSIWYG
 description = Provides the WYSIWYG editor
 core = 7.x
 package = Humanitarianresponse
-dependencies[] = caption_filter
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = filter

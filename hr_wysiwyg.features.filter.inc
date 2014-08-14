@@ -286,11 +286,6 @@ img[!src|title|alt|style|width|height|class|hspace|vspace],
           'rule_style_urls' => array(),
         ),
       ),
-      'caption_filter' => array(
-        'weight' => -48,
-        'status' => 1,
-        'settings' => array(),
-      ),
       'media_filter' => array(
         'weight' => -47,
         'status' => 1,
