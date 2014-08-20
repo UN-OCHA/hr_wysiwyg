@@ -51,7 +51,7 @@ function hr_wysiwyg_filter_default_formats() {
         'weight' => -49,
         'status' => 1,
         'settings' => array(
-          'valid_elements' => 'a[!href|target<_blank|title|style|class],
+          'valid_elements' => 'a[href|target<_blank|title|style|class|name],
 div[id|style|class|align<center?justify?left?right],
 br,em,i,strong,cite,code,blockquote,ul,ol,li,dl,dt,dd,
 table,thead,tr,th,td,
