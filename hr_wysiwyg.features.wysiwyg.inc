@@ -57,6 +57,7 @@ function hr_wysiwyg_wysiwyg_default_profiles() {
       'language' => 'en',
       'buttons' => array(
         'default' => array(
+          'Anchor' => 1,
           'Bold' => 1,
           'Italic' => 1,
           'Underline' => 1,
