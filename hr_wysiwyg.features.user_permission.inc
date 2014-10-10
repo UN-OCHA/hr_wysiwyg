@@ -37,5 +37,15 @@ function hr_wysiwyg_user_default_permissions() {
     'module' => 'filter',
   );
 
+  // Exported permission: 'use text format hr_wysiwyg_trusted'.
+  $permissions['use text format hr_wysiwyg_trusted'] = array(
+    'name' => 'use text format hr_wysiwyg_trusted',
+    'roles' => array(
+      'trusted' => 'trusted',
+    ),
+    'module' => 'filter',
+  );
+
+
   return $permissions;
 }
