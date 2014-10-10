@@ -551,6 +551,8 @@ h1[style|class],h2[style|class],h3[style|class],h4[style|class],h5[style|class],
 
 img[!src|title|alt|style|width|height|class|hspace|vspace],
 
+iframe[!src|scrolling|frameborder|height|width],
+
 @[style|class]',
           'allow_comments' => 1,
           'nofollow_policy' => 'disabled',

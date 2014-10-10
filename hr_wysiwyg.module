@@ -30,3 +30,17 @@ function hr_wysiwyg_wysiwyg_editor_settings_alter(&$settings, $context) {
      }
   }
 }
+
+/**
+ * Implementation of hook_wysiwyg_filter_elements_blacklist_alter()
+ * Allows iframes for the hr_wysiwyg_trusted filter
+ */
+function hr_wysiwyg_wysiwyg_filter_elements_blacklist_alter(&$blacklist){
+  $new_blacklist = array();
+  foreach ($blacklist as $value) {
+    if ($value !== 'iframe') {
+      $new_blacklist[] = $value;
+    }
+  }
+  $blacklist = $new_blacklist;
+}

@@ -42,6 +42,8 @@ function hr_wysiwyg_user_default_permissions() {
     'name' => 'use text format hr_wysiwyg_trusted',
     'roles' => array(
       'trusted' => 'trusted',
+      'editor' => 'editor',
+      'administrator' => 'administrator',
     ),
     'module' => 'filter',
   );
