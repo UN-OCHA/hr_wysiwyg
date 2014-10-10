@@ -134,6 +134,7 @@ Clearfix=p.clearfix',
           'Find' => 1,
           'Replace' => 1,
           'Maximize' => 1,
+          'Iframe' => 1,
         ),
         'linkit' => array(
           'linkit' => 1,
