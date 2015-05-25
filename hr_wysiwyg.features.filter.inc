@@ -42,7 +42,9 @@ function hr_wysiwyg_filter_default_formats() {
 
 div[style|class|align<center?justify?left?right],
 
-br,em,i,strong,cite,code,blockquote,ul,ol,li,dl,dt,dd,
+br,em,i,strong,cite,code,blockquote,ul,li,dl,dt,dd,
+
+ol[start],
 
 table,thead,tr,th,td,
 
@@ -548,7 +550,8 @@ img[!src|title|alt|style|width|height|class|hspace|vspace],
         'settings' => array(
           'valid_elements' => 'a[href|target<_blank|title|style|class|name],
 div[style|class|align<center?justify?left?right],
-br,em,i,strong,cite,code,blockquote,ul,ol,li,dl,dt,dd,pre,
+br,em,i,strong,cite,code,blockquote,ul,li,dl,dt,dd,pre,
+ol[start],
 table,thead,tr,th,td,
 span[style],p[style|class],
 h1[style|class],h2[style|class],h3[style|class],h4[style|class],h5[style|class],h6[style|class],
